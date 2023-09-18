@@ -64,3 +64,21 @@ console.log(doble)
     return num *2;
 }
 */
+
+//Funciones con parametros opcionales
+const welcomeToMexico = (user = 'Invitado') => {
+    console.log(`Bienvenido a Mexico ${ user }`);
+}
+
+welcomeToMexico();
+welcomeToMexico("batman");
+
+//parametros con nombre 
+const welcomeToUtt = (user = 'Invitado',
+                    city= 'Gotica') => {
+    console.log(`Bienvenido ${user} de ${city}`)
+}
+
+welcomeToUtt();
+welcomeToUtt('Bruce Wayne', 'Mexico');
+welcomeToUtt(city = 'Metropolis', user='Superman')
