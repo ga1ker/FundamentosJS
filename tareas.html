@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styletareas.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="loadImage">
+        <img id="image" src="" alt="">
+        <button onclick="addImage()">Add image</button>
+    </div>
+    <div class="container">
+        <h1>Lista de tareas</h1>
+        <div id="formulario">
+            <textarea name="" id="inputTarea" cols="30" rows="10"></textarea>
+            <button id="refreshButton">Eliminar todo</button>
+            <button onclick="addTarea()">Agregar tarea</button>
+        </div>
+    <div class="container-list">
+        <div id="tareas">
+            <ul></ul>
+        </div>
+    </div>
+    </div>
+    <script src="tareas.js"></script>
+</body>
+</html>
