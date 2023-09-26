@@ -1,4 +1,4 @@
-// JS no es tipado potlo que no se especifica tipo de dato
+// JS no es tipado por lo que no se especifica tipo de dato
 
 //Para declaracion de variables 
 //Utilizaos const y let
